@@ -17,7 +17,7 @@ class School
     if !roster.include?(grade) do
       roster[grade] << student_name
       end
-    else 
+    else
       roster[grade] = [name]
   end
 
