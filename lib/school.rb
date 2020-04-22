@@ -17,7 +17,7 @@ class School
   end
 
   def grade
-    student_name.each {|student_name, grade| roster[student_name][grade] = [] }
+    student_name.each {|grade| student_name[grade] = [] }
   end
 
   def sort
