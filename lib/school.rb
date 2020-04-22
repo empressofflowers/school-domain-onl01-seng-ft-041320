@@ -12,8 +12,8 @@ class School
     @roster << add_student
   end
 
-  def add_student(name, grade)
-
+  def add_student(student)
+    student.each {|name, grade| roster << student}
 
   end
 end
