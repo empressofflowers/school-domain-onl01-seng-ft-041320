@@ -12,8 +12,15 @@ class School
     @roster
   end
 
-  def add_student(student_name, grade)
-    student.each {|student_name, grade| }
+  def add_student(student)
+    student.each_with_index { |student_name, grade|  }
+  end
 
+  def student(student_name, grade)
+    
+  end
+
+  def grade
+    
   end
 end
