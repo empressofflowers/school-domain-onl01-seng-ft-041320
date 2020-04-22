@@ -16,11 +16,11 @@ class School
     student.each_with_index { |student|  }
   end
 
-  def student(student)
+  def grade
 
   end
 
-  def grade
+  def sort
 
   end
 end
