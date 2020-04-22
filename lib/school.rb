@@ -16,7 +16,7 @@ class School
     student.each_with_index { |student|  }
   end
 
-  def student(student_name, grade)
+  def student(student)
 
   end
 
