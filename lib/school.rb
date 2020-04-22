@@ -17,10 +17,10 @@ class School
   end
 
   def student(student_name, grade)
-    
+
   end
 
   def grade
-    
+
   end
 end
