@@ -21,8 +21,8 @@ class School
     #student.each_with_index { |student_name, grade| roster << "#{student_name}, #{grade}" }
   end
 
-  def grade(student)
-     { |student_name, grade| }
+  def grade
+    roster[grade]
   end
 
   def sort
