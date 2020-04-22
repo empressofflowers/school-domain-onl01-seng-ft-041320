@@ -17,11 +17,12 @@ class School
       if roster[grade].included?
         puts "#{student_name}"
       else roster[grade] = [student_name]
+      end
   end
 
   def sort
     roster_sorted = []
-    roster.each {|grade, students| roster_sorted[grade] = students.sort}
+    roster.each {|grade, students| grade.students.sort!}
     roster_sorted
   end
 
