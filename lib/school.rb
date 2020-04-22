@@ -9,13 +9,13 @@ class School
   end
 
   def roster
-    @roster = roster
+    @roster
   end
 
-def sort
-  roster_sorted = []
-  roster.each {|grade, students| roster_sorted[grade] = students.sort}
-  roster_sorted
-end
+  def sort
+    roster_sorted = []
+    roster.each {|grade, students| roster_sorted[grade] = students.sort}
+    roster_sorted
+  end
 
 end
