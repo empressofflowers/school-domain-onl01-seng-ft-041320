@@ -1,6 +1,7 @@
 # code here!
 
 class School
+  attr_reader :roster
 
   def initialize(name)
     @name = name
@@ -10,4 +11,5 @@ class School
   roster_sorted = []
   roster.each {|grade, student| roster_sorted[grade] = roster.sort}
   roster_sorted
+  
 end
