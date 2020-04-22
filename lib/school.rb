@@ -10,15 +10,15 @@ class School
   end
 
   def roster
-    @roster["school_name"] = self.name
+    roster["school_name"] = roster.name
   end
 
   def add_student(student_name, grade)
     if !roster.include?(grade) do
       roster[grade] << student_name
       end
-    else roster[grade] = [name]
-    #student.each_with_index { |student_name, grade| roster << "#{student_name}, #{grade}" }
+    else 
+      roster[grade] = [name]
   end
 
   def grade
