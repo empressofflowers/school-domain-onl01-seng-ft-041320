@@ -21,7 +21,7 @@ class School
   end
 
   def sort
-    self.roster.grade.student_name.sort!
+    self.student_name.sort!
   end
 
 end
