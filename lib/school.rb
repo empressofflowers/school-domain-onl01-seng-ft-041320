@@ -14,9 +14,11 @@ class School
   end
 
   def add_student(student_name, grade)
-    if @roster(grade)
-      @roster[grade] = []
-      @roster[grade] << "#{student_name}"
+    if !@roster.include?(grade) do
+      @roster[grade] << student_name
+      end
+    else
+    
     #student.each_with_index { |student_name, grade| roster << "#{student_name}, #{grade}" }
   end
 
