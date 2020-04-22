@@ -12,7 +12,7 @@ class School
     @roster["school_name"] = self.new
   end
 
-  def add_student(grade, student_name)
+  def add_student(student_name, grade)
     roster.each do |grade, student_name|
       if roster[grade].included?
         roster[grade] << "#{student_name}"
