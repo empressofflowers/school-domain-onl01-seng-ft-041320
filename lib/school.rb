@@ -13,7 +13,7 @@ class School
   end
 
   def add_student(grade, student_name)
-    roster.each {|grade, student_name| roster[grade] => "#{student_name}" }
+    roster.each {|grade, student_name| roster[grade] = "#{student_name}" }
   end
 
   def sort
