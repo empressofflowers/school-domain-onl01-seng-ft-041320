@@ -8,6 +8,10 @@ class School
     @roster = []
   end
 
+  def roster
+    @roster = roster
+  end
+
   roster_sorted = []
 
   roster.each {|grade, students| roster_sorted[grade] = students.sort}
