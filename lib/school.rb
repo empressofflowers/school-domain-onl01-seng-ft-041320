@@ -17,8 +17,7 @@ class School
     if !@roster.include?(grade) do
       @roster[grade] << student_name
       end
-    else
-    
+    else @roster[grade] = [name]
     #student.each_with_index { |student_name, grade| roster << "#{student_name}, #{grade}" }
   end
 
