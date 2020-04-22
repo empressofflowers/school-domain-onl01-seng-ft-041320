@@ -13,8 +13,7 @@ class School
   end
 
   def add_student(grade, student_name)
-    roster.each do |grade, student_name|
-      if roster[grade].included?
+    roster[grade] << name
         roster[grade] << "#{student_name}"
       else roster[grade] = [student_name]
       end
