@@ -17,7 +17,7 @@ class School
   end
 
   def grade
-    student_name.each {|grade| student_name[grade] = [] }
+    self.roster[grade]
   end
 
   def sort
