@@ -5,7 +5,7 @@ class School
 
   def initialize(name)
     @name = name
-    @roster = roster
+    @roster = []
   end
 
   def roster
@@ -14,7 +14,7 @@ class School
 
   roster_sorted = []
 
-  roster.each {|grade, student| roster_sorted[grade] = roster.sort}
+  roster.each {|grade, students| roster_sorted[grade] = roster.sort}
 
   roster_sorted
 
