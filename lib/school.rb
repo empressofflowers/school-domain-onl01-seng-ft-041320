@@ -7,6 +7,6 @@ class School
     @roster = []
   end
 
-  roster.each {|grade, student| roster_sorted = roster.sort}
+  roster.each {|grade, student| roster_sorted[grade] = roster.sort}
 
 end
