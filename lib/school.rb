@@ -1,6 +1,6 @@
 # code here!
 
 class School
-  attr_accessor :roster :student
+  attr_accessor :roster, :student
 
 end
