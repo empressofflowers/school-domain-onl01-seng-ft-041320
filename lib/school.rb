@@ -18,6 +18,7 @@ class School
         puts "#{student_name}"
       else roster[grade] = [student_name]
       end
+    end
   end
 
   def sort
