@@ -21,9 +21,7 @@ class School
   end
 
   def sort
-    roster_sorted = []
     roster.each {|grade, students| grade.students.sort!}
-    roster_sorted
   end
 
 end
