@@ -21,7 +21,7 @@ class School
   end
 
   def sort
-    self.roster.each {|grade, students| grade.students.sort!}
+    self.roster.grade.students.sort!}
   end
 
 end
