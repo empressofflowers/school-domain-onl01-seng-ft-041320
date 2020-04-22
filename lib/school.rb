@@ -13,7 +13,7 @@ class School
   end
 
   def add_student(student)
-    student.each_with_index { |student_name, grade|  }
+    student.each_with_index { |student|  }
   end
 
   def student(student_name, grade)
